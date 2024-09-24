@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav class="nav" id="nav-bar">
+          <a class="header-logo-link" href="./index.html">
+            <img
+              class="nav-img"
+              src="https://res.cloudinary.com/dquehaxrj/image/upload/v1727204542/logo_rknpfi.png"
+              alt="header logo"
+              id="header-img"
+              width="150"
+            />
+          </a>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#">Proposition</a></li>
+            <li><a class="nav-link" href="#">Team</a></li>
+            <li><a class="nav-link" href="#">Last Minute</a></li>
+            <li><a class="nav-link" href="#">All Inclusive</a></li>
+          </ul>
+        </nav>
+        <address class="header-contacts">
+          <ul>
+            <li>
+              <a class="contacts-link" href="tel:+77777777777"
+                >+77-777-777-777</a
+              >
+            </li>
+            <li>
+              <a class="contacts-link" href="mailto:travelvr@gmail.com"
+                >travelvr@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-paddings">
+        <div class="container">
+          <h1 class="hero-title">
+            Discover the world with our unforgettable journeys
+          </h1>
+          <p class="hero-text">Let us organize the perfect vacation for you</p>
+          <iframe
+            class="video-container"
+            width="760"
+            height="415"
+            src="https://www.youtube.com/embed/3SsK-cxlj_w?si=L8hhTtfqtWNBlb9h"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            id="video"
+          ></iframe>
+          <form
+            class="page-for"
+            name="client-form"
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+          >
+            <legend>
+              Leave your details and we will send you special offers at a
+              promotional price
+            </legend>
+
+            <label class="form-label" for="user-name"
+              >Enter Your Name:<sup class="star-color">*</sup></label
+            >
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              required
+              placeholder="Jack"
+            />
+
+            <label class="form-label" for="email"
+              >Enter Your E-mail:<sup class="star-color">*</sup></label
+            >
+            <input
+              class="form-input"
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="jack.sparrow@gmail.com"
+            />
+
+            <label class="form-label" for="user-phone"
+              >Enter Your Phone:<sup class="star-color">*</sup></label
+            >
+            <input
+              class="form-input"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              required
+              placeholder="+77-777-777-777"
+            />
+
+            <label class="form-label-texarea" for="user-comment"
+              >Your Comment:</label
+            >
+            <textarea
+              class="form-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Enter your comment..."
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+      <section class="section-paddings">
+        <div class="container"></div>
+      </section>
+      <section class="section-paddings">
+        <div class="container"></div>
+      </section>
+      <section class="section-paddings">
+        <div class="container"></div>
+      </section>
+      <section class="section-paddings">
+        <div class="container"></div>
+      </section>
+    </main>
+  </body>
+</html>

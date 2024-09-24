@@ -1,0 +1,14 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  line-height: 1.15;
+}
+
+body {
+  background: linear-gradient(
+    830deg,
+    rgb(255, 255, 21, 0.8),
+    rgb(255, 207, 51, 0.4)
+  );
+}
